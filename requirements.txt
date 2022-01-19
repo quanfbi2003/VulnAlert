@@ -1,0 +1,4 @@
+requests~=2.27.1
+urllib3
+jinja2~=3.0.3
+simplejson~=3.17.6

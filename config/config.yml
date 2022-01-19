@@ -19,7 +19,7 @@ cve:
     template: "config/template.html"
   telegram:
     active: True
-    token: "TOKEN"
+    token: "5038632541:AAFDYsa2C0Hu9bIOKiI5o1VewMNi38S71OY"
     chat: "CHAT"
     template: "config/telegram.md"
   vendor:
@@ -33,8 +33,8 @@ cve:
   score: 7.5
   lastdays: 1
   urls:
-    - "https://services.nvd.nist.gov/rest/json/cves/1.0?modStartDate="
-    - "https://services.nvd.nist.gov/rest/json/cves/1.0?pubStartDate="
+    - "https://services.nvd.nist.gov/rest/json/cves/1.0?modStartDate=2022-01-17T08:00:00:000%20UTC%2B01:00&modEndDate="
+    - "https://services.nvd.nist.gov/rest/json/cves/1.0?pubStartDate=2022-01-17T08:00:00:000%20UTC%2B01:00&pubEndDate="
     - "https://services.nvd.nist.gov/rest/json/cves/1.0?startIndex=100&resultsPerPage=100"
   products:
     - "windows"
